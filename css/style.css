@@ -1,0 +1,31 @@
+body {
+  font: 100%  'Roboto', sans-serif;
+  color: #444;
+  font-size: 1.6rem;
+  font-weight:light;
+}
+a:hover{
+  text-decoration: none;
+}
+.navbar{
+  margin:10px 0 0px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
+header{
+  background: url(../images/header_bg.jpg);
+  height: 450px;
+  background-size: cover;
+    margin-bottom: 30px;
+}
+.header{
+  padding: 80px 100px ;
+
+}
+.brand{
+  font-family: 'Patua One', cursive;
+  font-size: 3rem;
+  color: #0082C0;
+  font-weight: bold;
+
+}
