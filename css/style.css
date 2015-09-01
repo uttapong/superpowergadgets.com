@@ -1,31 +1,111 @@
 body {
   font: 100%  'Roboto', sans-serif;
-  color: #444;
+  color: #555 !important;
   font-size: 1.6rem;
-  font-weight:light;
+  font-weight:100;
 }
-a:hover{
+a{
+  color: #1BBC9B !important;
   text-decoration: none;
 }
+.nav a:hover{
+  background-color: #444 !important;
+  color: #fff !important;
+}
+
+.nav a.active{
+background-color: #1BBC9B;
+color: #fff !important;
+}
+.nav a{
+  background-color: none;
+  color: #1BBC9B !important;
+  line-height: 30px;
+  height: 40px;
+  padding: 10px 20px !important;
+  border-radius: 100px;
+  font-weight: 200;
+  margin: 0px 5px;
+}
+
 .navbar{
   margin:10px 0 0px 0;
 }
-
-/*# sourceMappingURL=style.css.map */
-header{
-  background: url(../images/header_bg.jpg);
-  height: 450px;
-  background-size: cover;
-    margin-bottom: 30px;
+.fullwidth{
+  width: 100%;
 }
+.fullwidth > .container{
+  padding: 50px 0px;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
+
 .header{
-  padding: 80px 100px ;
+  padding: 80px 0px ;
 
 }
 .brand{
   font-family: 'Patua One', cursive;
   font-size: 3rem;
-  color: #0082C0;
+  color: #1BBC9B !important;
   font-weight: bold;
 
+}
+.feature-icon{
+  width: 100%;
+  text-align: center;
+  margin: 10px 0 30px 0;
+}
+@media (min-width: 992px) {
+  .buybtn{
+  height: 63px;
+  width: 200px;
+  display:block;
+  float: left;
+  background-size: 100%;
+  }
+
+  header{
+    background: url(../images/header_bg.jpg) top center no-repeat;
+    height: 400px;
+    background-size: cover;
+      margin-bottom: 30px;
+  }
+
+  .rowblock{
+
+    height: 400px;
+  }
+}
+@media (max-width: 992px) {
+  .buybtn{
+  height: 31px;
+  width: 100px;
+  display:block;
+  float: left;
+  background-size: 100% !important;
+  }
+  header{
+    background: url(../images/header_bg.jpg) top center no-repeat;
+    height: 650px;
+    background-size: cover;
+      margin-bottom: 30px;
+  }
+
+}
+.price{
+  margin-top: 10px;
+  font-size: 2.6rem;
+  color: #000 !important;
+}
+.price span{
+  font-weight: bold;
+}
+footer{
+font-size: 1.2rem;width:
+color: #555;
+text-align: center;
+}
+.company-icon{
+  margin: 20px 0;
 }
